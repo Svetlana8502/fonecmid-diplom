@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fdd5a9f-51f9-4538-9545-f78032fd0e1a">
+  <producedTypes>
+    <objectType typeId="abfe422f-c4e3-4294-b90f-a60ce3e6bab3" valueTypeId="8c70cdd5-0ce2-4472-b48a-e3a7ae36415a"/>
+    <refType typeId="eacc50b2-561f-40de-87ee-56c9eb6ab77c" valueTypeId="317053c9-1a8c-4ca9-8e3b-fee93fc45e8c"/>
+    <selectionType typeId="0fc31d78-f65b-4dfe-8d57-283db2a861c5" valueTypeId="02cf9323-6402-4d78-906c-5d74942d1a04"/>
+    <listType typeId="cc253aae-c8d4-4fe2-b400-e7169a417562" valueTypeId="23d208a3-de0b-4995-982e-eb6ee766e70a"/>
+    <managerType typeId="5e9dc624-b9dc-43a7-b0dd-749d3b9fdd71" valueTypeId="6e749a4d-c1c1-405d-9344-c9eb73b29c98"/>
+  </producedTypes>
+  <name>ВКМ_ТелеграммБотУведомление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграмм бот уведомление</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ТелеграммБотУведомление.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ТелеграммБотУведомление.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>ТелеграммБот Уведомление</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>ТелеграммБот Уведомления</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="57c5dde8-0adb-4e38-9468-d8a1c76a4f30">
+    <name>ВКМ_ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

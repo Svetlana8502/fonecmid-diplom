@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87954b38-93cb-4fc9-b65d-62aed1491149">
+  <producedTypes>
+    <objectType typeId="8d621d6d-8c1b-48a5-89e2-d95c5a4fe437" valueTypeId="28d36787-761d-430f-9f18-d9e856fb4bae"/>
+    <refType typeId="1c1983f7-bb22-44d9-a50e-52879c083ea0" valueTypeId="fe1fce41-f7f5-447e-967b-c16c1e7b010a"/>
+    <selectionType typeId="c13ca22d-3c58-4057-bf4f-0d2082d4feb9" valueTypeId="ac0598c0-fd3c-499c-ba26-4e7994d58bca"/>
+    <listType typeId="93ccdaee-f4c3-44e7-a880-a898ae2e1bbc" valueTypeId="06d28eec-3ab4-4db8-91b0-ad2764a08883"/>
+    <managerType typeId="a3dad889-a18e-47ab-b846-00a2b2e29b25" valueTypeId="a2e7ef4f-f6e6-4fc5-996f-29f8a6397b1d"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикиРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ГрафикиРабот.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ГрафикиРабот.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>График работ</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Графики работ</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="887388bb-625f-4fd6-9735-ce9853086589">
+      <name>ОтпускКалендарныеДни</name>
+      <description>Отпуск календарные дни</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

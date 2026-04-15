@@ -276,6 +276,7 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <choiceForm>Catalog.ДоговорыКонтрагентов.Form.ВКМ_ФормаВыбора</choiceForm>
         </extInfo>
       </items>
       <visible>true</visible>

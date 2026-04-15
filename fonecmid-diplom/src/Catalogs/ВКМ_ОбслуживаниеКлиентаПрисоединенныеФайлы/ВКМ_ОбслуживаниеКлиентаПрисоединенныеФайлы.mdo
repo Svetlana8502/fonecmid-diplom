@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01174f0b-e6a0-4e3d-8342-ecec0b4ca6d7">
+  <producedTypes>
+    <objectType typeId="95751edd-bf9a-4ac4-ad4d-a963756ee706" valueTypeId="0c5e756e-5ec5-48e6-9bf4-8b9070c9168c"/>
+    <refType typeId="bf4bb075-394e-4b6f-8075-f9690f48cc46" valueTypeId="f1283bf8-fb38-4da7-951e-18d9ba4b5c92"/>
+    <selectionType typeId="4d7b24f8-db67-4e4d-b1ea-9c18184432b5" valueTypeId="259fddf0-66d0-4795-801b-66e38295f2b4"/>
+    <listType typeId="f0e4b2e6-286c-42eb-921a-e02815be0ff3" valueTypeId="4e0722dc-0bb0-47d1-83ee-2a9efe46ad8a"/>
+    <managerType typeId="22079088-0897-4ef8-8ca9-334a97feb5e1" valueTypeId="c919b63d-ab2f-4f36-9997-79fb63858a22"/>
+  </producedTypes>
+  <name>ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиента присоединенные файлы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

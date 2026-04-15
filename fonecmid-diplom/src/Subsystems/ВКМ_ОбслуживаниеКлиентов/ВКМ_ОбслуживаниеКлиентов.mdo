@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec316b1e-e5fb-45e8-9e9a-71fad926c545">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.User</picture>
+  </picture>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>Catalog.ВКМ_ТелеграммБотУведомление</content>
+  <content>Constant.ВКМ_ТокенУправленияТГБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_Специалист</content>
+  <content>Role.ВКМ_КадровикРасчетчик</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <subsystems>ВКМ_Документы</subsystems>
+  <subsystems>ВКМ_Справичники</subsystems>
+  <subsystems>ВКМ_Отчеты</subsystems>
+  <subsystems>ВКМ_Справочно</subsystems>
+</mdclass:Subsystem>

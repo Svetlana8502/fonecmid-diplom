@@ -9670,17 +9670,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ОплатаОтПокупателя.Attribute.Ответственный</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>AccumulationRegister.Затраты.Dimension.Номенклатура</name>
 		<right>
 			<name>View</name>
@@ -15819,17 +15808,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ОплатаОтПокупателя.Attribute.Основание</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ПользовательскиеМакетыПечати.Attribute.УсловиеВидимости</name>
 		<right>
 			<name>View</name>
@@ -18608,17 +18586,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ОплатаОтПокупателя.Attribute.Комментарий</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПредопределенныеВариантыОтчетовРасширений.Attribute.КлючЗамеров</name>
 		<right>
 			<name>View</name>
@@ -19367,17 +19334,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ОплатаОтПокупателя.Attribute.Контрагент</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Attribute.ДополнительныеЗначенияСВесом</name>
 		<right>
 			<name>View</name>
@@ -19598,58 +19554,34 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ОплатаОтПокупателя.StandardAttribute.Posted</name>
+		<name>Document.ОплатаОтПокупателя</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ОплатаОтПокупателя.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ОплатаОтПокупателя.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ОплатаОтПокупателя.StandardAttribute.Date</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ОплатаОтПокупателя.StandardAttribute.Number</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -20193,17 +20125,6 @@
 	</object>
 	<object>
 		<name>Catalog.ДополнительныеОтчетыИОбработки.Attribute.ХранилищеНастроек</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ОплатаОтПокупателя.Attribute.Договор</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -20875,17 +20796,6 @@
 	</object>
 	<object>
 		<name>Catalog.НастройкиАвторизацииИнтернетСервисов.Attribute.АдресРегистрацииУстройства</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ОплатаОтПокупателя.Attribute.СуммаДокумента</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -22437,17 +22347,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ОбщиеПоставляемыеМакетыПечати.Resource.ВерсияМакета</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ОплатаОтПокупателя.Attribute.Организация</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

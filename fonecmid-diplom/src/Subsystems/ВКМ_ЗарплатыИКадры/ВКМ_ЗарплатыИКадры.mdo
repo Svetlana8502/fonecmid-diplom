@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dae5d42c-9f41-47c0-a487-6031ce709c24">
+  <name>ВКМ_ЗарплатыИКадры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплаты и Кадры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.МетаданныеОтчеты</picture>
+  </picture>
+  <subsystems>ВКМ_Справочники</subsystems>
+  <subsystems>ВКМ_Документы</subsystems>
+  <subsystems>ВКМ_Отчеты</subsystems>
+  <subsystems>ВКМ_Справочно</subsystems>
+</mdclass:Subsystem>

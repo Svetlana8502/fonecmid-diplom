@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b642104-aea3-40e9-8bfb-3f0b0e441e1b">
+  <name>ВКМ_Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ВКМ_ГрафикиРабот</content>
+  <content>Catalog.BKM_Сотрудники</content>
+  <parentSubsystem>Subsystem.ВКМ_ЗарплатыИКадры</parentSubsystem>
+</mdclass:Subsystem>
