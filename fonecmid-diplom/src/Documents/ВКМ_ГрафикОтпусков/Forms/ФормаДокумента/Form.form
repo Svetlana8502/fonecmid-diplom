@@ -563,12 +563,12 @@
         </edit>
       </columns>
       <columns>
-        <name>Лимит</name>
+        <name>ПревышениеЛимита</name>
         <title>
           <key>ru</key>
-          <value>Лимит</value>
+          <value>Превышение лимита</value>
         </title>
-        <id>4</id>
+        <id>5</id>
         <valueType>
           <types>Boolean</types>
         </valueType>
