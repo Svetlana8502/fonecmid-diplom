@@ -223,6 +223,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.НачисленияЗП.Сотрудник</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>НачисленияЗПСотрудникПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>НачисленияЗПСотрудникРасширеннаяПодсказка</name>
         <id>31</id>
